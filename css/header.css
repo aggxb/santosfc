@@ -1,0 +1,30 @@
+.header-bg {
+  background: var(--c12);
+}
+
+.header-bg nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  color: white;
+}
+
+.header-bg ul {
+  display: flex;
+  gap: 60px;
+}
+
+@media (max-width:600px) {
+  .header-bg nav {
+    padding: 10px;
+  }
+  .header-bg ul {
+    gap: 30px;
+  }
+}
+@media (max-width: 450px) {
+  .header-bg ul{
+    font-size: 1rem;
+  }
+}

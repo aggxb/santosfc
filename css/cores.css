@@ -1,0 +1,18 @@
+:root {
+  --w: #ffffff;
+  --c1: #f7f7f7;
+  --c2: #ededed;
+  --c3: #dedede;
+  --c4: #cccccc;
+  --c5: #b3b3b3;
+  --c6: #9c9c9c;
+  --c7: #707070;
+  --c8: #595959;
+  --c9: #404040;
+  --c10: #2e2e2e;
+  --c11: #121212;
+  --c12: #000000;
+  --p1: #e7c443;
+  --p2: #c69f0f;
+  --gradient: linear-gradient(180deg, #D5AC15 0%, #F7CD32 100%);
+}

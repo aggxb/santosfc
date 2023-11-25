@@ -1,0 +1,10 @@
+/* Utilitários */
+@import "./global.css";
+@import "./cores.css";
+@import "./tipografia.css";
+
+/* Header */
+@import "./header.css";
+
+/* Home */
+@import "./home.css";

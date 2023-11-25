@@ -1,0 +1,11 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.home-desc h1 {
+  max-width: 12ch;
+}
