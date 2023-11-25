@@ -20,11 +20,7 @@
     padding: 10px;
   }
   .header-bg ul {
-    gap: 30px;
-  }
-}
-@media (max-width: 450px) {
-  .header-bg ul{
     font-size: 1rem;
+    gap: 30px;
   }
 }

@@ -1,11 +1,52 @@
+.home-bg {
+  background: linear-gradient(90deg, var(--w) 50%, var(--c12) 50%);
+}
+
 .home {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
+  position: relative;
+  grid-template-columns: 7fr 5fr;
+  gap: 120px;
   align-items: center;
-  margin-top: 200px;
+  padding: 200px 40px;
 }
 
 .home-desc h1 {
   max-width: 12ch;
+}
+
+.home-img::after {
+  content: "";
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  bottom: -35px;
+  right: 100px;
+  background: url("../icons/raio.svg");
+}
+
+@media (max-width: 850px) {
+  .home {
+    gap: 60px;
+    padding: 100px 40px;
+  }
+  .home-desc h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-bg {
+    background: initial;
+  }
+  .home {
+    grid-template-columns: 1fr;
+    padding: 50px 40px;
+  }
+  .home-desc {
+    justify-self: center;
+  }
+  .home-img {
+    display: none;
+  }
 }
