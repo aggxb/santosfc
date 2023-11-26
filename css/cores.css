@@ -1,5 +1,5 @@
 :root {
-  --w: #ffffff;
+  --c0: #ffffff;
   --c1: #f7f7f7;
   --c2: #ededed;
   --c3: #dedede;
@@ -12,7 +12,49 @@
   --c10: #2e2e2e;
   --c11: #121212;
   --c12: #000000;
-  --p1: #e7c443;
-  --p2: #c69f0f;
+  --p1: #c69f0f;
   --gradient: linear-gradient(180deg, #D5AC15 0%, #F7CD32 100%);
+}
+
+.c0 {
+  color: #ffffff;
+}
+.c1 {
+  color: #f7f7f7;
+}
+.c2 {
+  color: #ededed;
+}
+.c3 {
+  color: #dedede;;
+}
+.c4 {
+  color: #cccccc;;
+}
+.c5 {
+  color: #b3b3b3;;
+}
+.c6 {
+  color: #9c9c9c;;
+}
+.c7 {
+  color: #707070;;
+}
+.c8 {
+  color: #595959;;
+}
+.c9 {
+  color: #404040;
+}
+.c10 {
+  color: #2e2e2e;
+}
+.c11 {
+  color: #121212;
+}
+.c12 {
+  color: #000000;;
+}
+.p1 {
+  color: #c69f0f;
 }

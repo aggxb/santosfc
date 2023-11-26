@@ -1,0 +1,47 @@
+.historia-bg {
+  background: var(--c12);
+}
+
+.historia {
+  position: relative;
+  padding: 100px 40px;
+}
+
+.historia h2 {
+  margin-bottom: 20px;
+}
+
+.historia p::after {
+  content: "";
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  bottom: -35px;
+  left: 220px;
+  background: url("../icons/raio.svg");
+}
+
+@media (max-width: 850px) {
+  .historia h2 {
+    font-size: 3rem;
+  }
+  .historia p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .historia {
+    padding: 50px 40px;
+  }
+  .historia h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .historia p {
+    font-size: 1rem;
+  }
+  .historia p::after {
+    display: none;
+  }
+}
