@@ -4,6 +4,7 @@
 }
 .font-1-l {
   font: 600 4rem/1.125 "Urbanist", sans-serif;
+  text-transform: uppercase;
 }
 .font-1-m {
   font: 500 3rem/1.2 "Urbanist", sans-serif;
