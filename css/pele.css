@@ -16,7 +16,7 @@
   width: 74px;
   height: 74px;
   bottom: -35px;
-  left: 210px;
+  left: 220px;
   background: url("../icons/raio.svg");
 }
 
@@ -77,9 +77,11 @@
     background: var(--c0);
   }
   .pele {
+    padding: 50px 40px;
+  }
+  .pele {
     grid-template-columns: 1fr;
     gap: 24px;
-    padding: 50px 40px;
   }
   .pele::after {
     display: none;
