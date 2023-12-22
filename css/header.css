@@ -24,8 +24,11 @@
 }
 
 @media (max-width:600px) {
-  .header nav {
+  .header {
     padding: 10px;
+  }
+  .header a img {
+    min-width: 25px;
   }
   .header ul {
     font-size: 1rem;
