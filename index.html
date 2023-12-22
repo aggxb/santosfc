@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Santos Futebol Clube - O Maior Time da Terra</title>
   <meta name="description" content="Página do clube mais importante da história do futebol">
-  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="preload" href="/css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
   <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +21,7 @@
         <li><a href="#historia">História</a></li>
         <li><a href="#pele">Pelé</a></li>
       </ul>
-      <a href="#home"><img src="./img/logo1.png" alt="Logo Santos Futebol Clube"></a>
+      <a href="#home"><img src="./img/logo1.png" alt="Logo Santos Futebol Clube" width="70" height="70"></a>
       <ul>
         <li><a href="#estadio">Estádio</a></li>
         <li><a href="#trofeus">Troféus</a></li>
@@ -34,7 +36,7 @@
           <h1 class="font-1-xl c12">Homepage do MAIOR TIME DA TERRA</h1>
         </div>
         <div class="home-img">
-          <img src="./img/logo3.png" alt="Logo Santos Futebol Clube">
+          <img src="./img/logo3.png" alt="Logo Santos Futebol Clube" width="480" height="480">
         </div>
       </div>
     </article>
@@ -53,14 +55,14 @@
     <article class="pele-bg" id="pele">
       <div class="pele container">
         <div class="pele-img">
-          <img src="./img/pele1.jpg" alt="Pelé sendo reverenciado após seu milésimo gol">
-          <img src="./img/pele2.jpg" alt="Pelé comemorando a marca de mil gols">
+          <img src="./img/pele1.jpg" alt="Pelé sendo reverenciado após seu milésimo gol" width="560" height="374">
+          <img src="./img/pele2.jpg" alt="Pelé comemorando a marca de mil gols" width="560" height="375">
         </div>
         <div class="pele-desc">
           <div class="pele-titulo">
             <h2 class="font-1-l c12">
               Pelé
-              <img src="./icons/coroa.svg" alt="">
+              <img src="./icons/coroa.svg" alt="" width="76" height="76">
             </h2>
             <span class="font-2-xl c12">O rei</span>
           </div>
@@ -81,7 +83,7 @@
           <span class="font-2-xl c1">O Alçapão</span>
         </div>
         <div class="estadio-desc">
-          <img src="./img/vila.jpg" alt="Vila Belmiro, estádio do Santos">
+          <img src="./img/vila.jpg" alt="Vila Belmiro, estádio do Santos" width="560" height="374">
           <p class="font-2-l c3">
             O Estádio Urbano Caldeira, a Vila Belmiro, foi inaugurado no dia 12 de outubro de 1916, mas por conta de uma forte chuva, só recebeu sua primeira partida no dia 22 de outubro do mesmo ano. Na ocasião, o Santos venceu o Ypiranga pelo placar de 2 a 1. 
             <br>
@@ -102,40 +104,37 @@
               <p class="font-2-m c4">22 títulos</p>
             </div>
             <div class="trofeu-desc">
-              <img src="./img/paulistao.jpg" alt="Santos Campeão Paulista 2016">
+              <img src="./img/paulistao.jpg" alt="Santos Campeão Paulista 2016" width="614" height="409">
               <span class="font-2-xs c0">Comemoração do Título Paulista de 2016</span>
             </div>
           </div>
-
           <div class="trofeu-item">
             <div class="trofeu-info">
               <h3 class="font-1-m c0">Campeonato Brasileiro</h3>
               <p class="font-2-m c4">8 títulos</p>
             </div>
             <div class="trofeu-desc">
-              <img src="./img/brasileirao.jpg" alt="Santos Campeão Brasileiro 2004">
+              <img src="./img/brasileirao.jpg" alt="Santos Campeão Brasileiro 2004" width="614" height="409">
               <span class="font-2-xs c0">Comemoração do Título Brasileiro de 2004</span>
             </div>
           </div>
-          
           <div class="trofeu-item">
             <div class="trofeu-info">
               <h3 class="font-1-m c0">Copa do Brasil</h3>
               <p class="font-2-m c4">1 título</p>
             </div>
             <div class="trofeu-desc">
-              <img src="./img/copa-do-brasil.png" alt="Santos Campeão da Copa do Brasil 2010">
+              <img src="./img/copa-do-brasil.png" alt="Santos Campeão da Copa do Brasil 2010" width="614" height="409">
               <span class="font-2-xs c0">Comemoração do Título da Copa do Brasil de 2010</span>
             </div>
           </div>
-
           <div class="trofeu-item">
             <div class="trofeu-info">
               <h3 class="font-1-m c0">Libertadores da América</h3>
               <p class="font-2-m c4">3 títulos</p>
             </div>
             <div class="trofeu-desc">
-              <img src="./img/libertadores.jpg" alt="Santos Campeão da Copa Libertadores da América 2011">
+              <img src="./img/libertadores.jpg" alt="Santos Campeão da Copa Libertadores da América 2011" width="614" height="409">
               <span class="font-2-xs c0">Comemoração do Título da Copa Libertadores de 2011</span>
             </div>
           </div>
@@ -146,12 +145,32 @@
             <p class="font-2-m c4">2 títulos</p>
           </div>
           <div class="trofeu-desc">
-            <img src="./img/mundial.jpg" alt="Santos Campeão Intercontinental 1963">
+            <img src="./img/mundial.jpg" alt="Santos Campeão Intercontinental 1963" width="614" height="409">
             <span class="font-2-xs c0">Time Campeão Intercontinental de 1962</span>
           </div>
         </div>
       </div>
     </article>
   </main>
+  <footer class="footer-bg">
+    <div class="footer container">
+      <div class="footer-info">
+        <a href="#home"><img src="./img/logo2.png" alt="" width="135" height="135"></a>
+        <ul class="footer-desc font-2-m c2">
+          <li><a href="#historia">História</a></li>
+          <li><a href="#pele">Pelé</a></li>
+          <li><a href="#estadio">Estádio</a></li>
+          <li><a href="#trofeus">Troféus</a></li>
+        </ul>
+        <ul class="footer-contato font-2-m c2">
+          <li>Vila Belmiro</li>
+          <li>Rua Princesa Isabel, Vila Belmiro</li>
+          <li>Santos - SP</li>
+          <li>(13) 3257-4000</li>
+        </ul>
+      </div>
+      <p class="font-2-l c0">Santos Futebol Clube. Releitura por Gabriel Augusto Santos</p>
+    </div>
+  </footer>
 </body>
 </html>
